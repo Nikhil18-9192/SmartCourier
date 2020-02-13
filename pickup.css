@@ -1,0 +1,104 @@
+
+.pickupz {
+    background-image: url(img/pick.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Table
+    {
+        display: table;
+    }
+    
+    .Heading
+    {
+        display: table-row;
+        font-weight: bold;
+        text-align: center;
+    }
+    .Row
+    {
+        display: table-row;
+        color:burlywood;
+    }
+    .Cell
+    {
+        display: table-cell;
+        padding-left: 5px;
+        padding-right: 5px;
+        text-decoration-color: white;
+    }
+
+
+.head{
+    background-color:gray;
+}
+#txt{
+    text-decoration-color: white;
+}
+
+.Table-recivers{
+    padding: 3%;
+    margin-top: 5%;
+}
+.Table-senders{
+    padding: 3%;
+    margin-top: 5%;
+}
+#mainNav .navbar-nav>li>a {
+    font-size: 15px;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+}
+.zcz {
+    flex: 0 0 50%;
+    max-width: 50%;
+    z-index: 1;
+}
+b, strong {
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: sanrif;
+}
+.make-it{
+    padding-top: 3%;
+    margin-top: 3%;
+	margin-left: 20%;
+}
+.btn-primary {
+    color: #FFF;
+    background-color: #007BFF;
+    border-color: #007BFF;
+    padding: 3%;
+}
+ .calculate-cst{
+    padding: 3%;
+    margin-top: 20px;
+}
+.nav-link{
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+#mainNav .navbar-nav > li > a:hover {
+    color: #FFF;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+#mainNav .navbar-brand {
+    color: #d17606;
+    font-family: Times New Roman;
+    font-weight: 800;
+    letter-spacing: 2px;
+}

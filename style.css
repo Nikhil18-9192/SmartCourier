@@ -1,0 +1,117 @@
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: Times New Roman;
+	color: rgba(238, 238, 252, 1);
+}
+footer {
+    background-color: #222;
+    text-align: center;
+    padding: 25px 20px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+
+.description .cta {
+    padding: 100px !important;
+}
+.fixed-top {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 1030;
+    font-weight: 800 !important;
+}
+
+navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: #FFF;
+}
+.navbar-light .navbar-brand {
+    color: #00F;
+	text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(192, 70, 210, 1);
+}
+
+section.cta .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+section.cta {
+  position: relative;
+  padding: 250px 0;
+  background-image: url("img/courier.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.cta-content{
+    position: relative;
+    z-index: 109;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #495057;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+.make-it {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.btn-danger{
+    width: 70%;
+    height: 100%;
+    padding: 7%;
+}
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-size: 24px;
+    color: rgba(212, 192, 192, 1);
+	font-family: Times New Roman;
+}
+h4 {
+    font-size: 1.5rem;
+	color: rgba(212, 192, 192, 1);
+	margin-bottom: 0.5rem;
+	display: inline-block;
+	font-family: Times New Roman;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #FFF;
+	letter-spacing:2px ;
+   text-transform: uppercase;
+}
+.btn-danger:hover {
+    color: #FFF;
+    background-color: rgba(50, 212, 188, 1);
+    border-color: #33CCB6;
+}
+.footer1 {
+    margin-top: 5px;
+    margin-bottom: 8px;
+}

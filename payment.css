@@ -1,0 +1,94 @@
+.payment{
+    margin-top: 3%;
+    padding: 3%;
+}
+.box{
+    margin: 0 0 30px;
+    background: #fff;
+    border: solid 1px #e6e6e6;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+.nav-justified>li>a {
+    margin-bottom: 5px;
+    text-align: center;
+}
+.nav > li > a {
+    padding: 10px 15px;
+}
+.nav-pills > li > a {
+    border-radius: 0;
+}
+
+#content #checkout .nav {
+    margin-bottom: 20px;
+    border-bottom: solid 1px #4fbfa8;
+}
+.nav {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.nav-justified {
+    width: 100%;
+}
+p, ul, ol {
+    margin: 0 0 20px;
+}
+@media (min-width: 768px)
+.nav-justified>li {
+    display: table-cell;
+    width: 1%;
+}
+.nav-justified>li {
+    float: none;
+}
+.nav-pills>li {
+    float: left;
+}
+.nav>li {
+    position: relative;
+    display: block;
+}
+
+.box .box-footer {
+    background: #f7f7f7;
+    margin: 30px -20px -20px;
+    padding: 20px;
+    border-top: solid 1px #eeeeee;
+}
+.paymentz{
+    background-image: url(img/zzz.ashx);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav-pills > li > a {
+    border-radius: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 20px;
+}
+    section.paymentz.overlay { position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+}
+.zfc{
+    flex: 0 0 50%;
+    max-width: 50%;
+    z-index: 1;
+}

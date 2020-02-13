@@ -1,0 +1,164 @@
+.register{
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    margin-top: 3%;
+    padding: 3%;
+}
+.register-left{
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+}
+.register-left input{
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    width: 60%;
+    background: #f8f9fa;
+    font-weight: bold;
+    color: #383d41;
+    margin-top: 30%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.register-right{
+    background: #f8f9fa;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+}
+.register-left img{
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 25%;
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+.register-left p{
+    font-weight: lighter;
+    padding: 12%;
+    margin-top: -9%;
+}
+.register .register-form{
+    padding: 10%;
+    margin-top: 10%;
+}
+.btnRegister{
+    float: right;
+    margin-top: 10%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    background: #0062cc;
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+    cursor: pointer;
+}
+.register .nav-tabs{
+    margin-top: 3%;
+    border: none;
+    background: #0062cc;
+    border-radius: 1.5rem;
+    width: 28%;
+    float: right;
+}
+.register .nav-tabs .nav-link{
+    padding: 2%;
+    height: 34px;
+    font-weight: 600;
+    color: #fff;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+.register .nav-tabs .nav-link:hover{
+    border: none;
+}
+.register .nav-tabs .nav-link.active{
+    width: 100px;
+    color: #0062cc;
+    border: 2px solid #0062cc;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+.register-heading{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: -15%;
+    color: #495057;
+}
+.register-page .cta {
+    padding: 100px !important;
+}
+
+.reg_but {
+    border: 2px solid white;
+    font-size: 12px !important;
+    background: #cc3535;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.btn-outline:hover {
+    color: #fff;
+    border-color: #fdcc52;
+    background-color: transparent;
+}
+section.download h2 {
+    font-size: 40px;
+}
+
+iframe {
+    padding-top: 20px !important;
+}
+.bg-primary{
+	    background: linear-gradient(#fde052,#39fd51)!important;
+}
+#mainNav .navbar-brand {
+    color: #fdcc52;
+    font-family: Catamaran,Helvetica,Arial,sans-serif;
+    font-weight: 800 !important;
+  
+    letter-spacing: 1px;
+}
+a.nav-link.js-scroll-trigger {
+    font-size: 15px !important;
+}
+#page-top > header > div > div > div.col-lg-5.my-auto {
+    padding: 100px !important;
+}
+.register-left input {
+    margin-top: 2% !important;
+    
+}
+form {
+    width: 100% !important;
+}	
+#home > div > form > div:nth-child(1) {
+    display: inline;
+    float: left;
+}
+#home > div > form > div:nth-child(2) {
+    float: right;
+}
+#profile > div > form > div:nth-child(1) {
+    display: inline;
+    float: left;
+}
+#profile > div > form > div:nth-child(2){
+	float:right;
+}
+.aboutus {
+	    display-color: black;
+}
+.about {
+    background: #d1c8c8;
+}
+.aboutus{
+    padding: 3%;
+    margin-top: 3%;
+}

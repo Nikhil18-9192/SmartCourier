@@ -1,0 +1,39 @@
+html,body{
+	
+	height:100%;
+	background-color: #e6e6e6;
+}
+
+.qrcode {
+    margin-top: 3%;
+    padding: 3%;
+	min-height:100%;
+   position:relative;
+}
+}
+
+ h2.heading {
+    font-size: 2rem;
+    font-family: Times New Roman;
+    color: #40d340;
+    letter-spacing: 2px;
+}
+h3 {
+    font-size: 1.75rem;
+    font-family: sans-serif;
+    color: #4b4be5;
+    letter-spacing: 1px;
+}
+
+
+
+
+ .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
